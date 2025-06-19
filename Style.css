@@ -73,13 +73,13 @@ body, html {
   left: 0;
   width: 50%;
   height: 100%;
-  background-image: url("football.jpg"); /* your image */
+  background-image: url("football.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.2;
   filter: blur(2px);
   z-index: 0;
-  /*clip-path: inset(0 50% 0 0); Prevents blur overflow */
+  /*clip-path: inset(0 50% 0 0); */
 }
 
 
@@ -87,7 +87,7 @@ body, html {
 .card,
 .text-content {
   position: relative;
-  z-index: 1; /* bring above the background */
+  z-index: 1; 
 }
  
 .text-content p {
@@ -221,7 +221,7 @@ body, html {
       text-decoration: underline;
     }
 
-    /* SECTION 3 - Phone Mockup */
+    /* SECTION 3 */
   .interface-section {
   display: flex;
   align-items: center;
